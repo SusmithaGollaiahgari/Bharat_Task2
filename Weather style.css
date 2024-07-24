@@ -1,0 +1,88 @@
+body {
+    font-family: 'montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    margin: 0;
+    background: #87ceeb;
+}
+
+.container {
+    text-align: center;
+    background: rgba(8, 237, 58, 0.8);
+    padding: 90px;
+    border-radius: 10px;
+}
+
+#city-input {
+    padding: 15px;
+    margin: 10px 0;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#city-input:focus {
+    outline: none;
+    border-color: #e90c0c;
+}
+
+#city-input::placeholder {
+    color: #aaa;
+}
+ 
+#city-input-btn {
+    padding: 10px;
+    background-color: #8013ec;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+ 
+#city-input-btn:hover {
+    background-color: #c01515;
+}
+ 
+h1 {
+    margin: 0;
+    color: #f15208;
+}
+
+#weather {
+    display: none;
+}
+ 
+#weather-icon {
+    width: 50px;
+    height: 50px;
+}
+
+#location {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+#description {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#temperature {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin:8px  0;
+}
+
+#date {
+    font-size: 14px;
+    color: rgb(255, 0, 0);
+}
+
+#wind-speed {
+    font-size: 16px;
+    color: rgb(240, 124, 124);
+}

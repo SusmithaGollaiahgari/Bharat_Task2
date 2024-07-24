@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="Weather_style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <input type="text" id="city-input"  placeholder="Enter city name">
+            <button id="city-input-btn"  onclick="weatherFn($('#city-input').val())">
+                    Get Weather
+            </button>
+        <div class="weather" id="animate__animated animate__fadeIn">
+            <h3 id="location">Location</h3>
+            <p id="date" >Date</p>
+                <img id="weather-icon" src="../Bharat Intern/img/weather icon.png">
+            <p id="description">Description</p>
+            <p id="temperature">Temperature: <span id="temp"></span>°C</p>
+        </div>
+    </div>
+    <script src="Weather_script.js"></script>
+    <script src="https://www.timeanddate.com/"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://momentjs.com/downloads/moment.min.js"></script>
+</body>
+</html>
